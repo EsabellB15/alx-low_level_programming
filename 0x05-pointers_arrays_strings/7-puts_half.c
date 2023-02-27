@@ -1,4 +1,4 @@
-#Include "main.h"
+#include "main.h"
 
 /**
 * puts_half – Prints half of a string
@@ -18,14 +18,14 @@ void puts_half(char *str)
 	}
 	if (j % 2 == 1)
 	{
-	k = (j – 1) / 2;
+	k = (j - 1) / 2;
 	k += 1;
 	}
 	else
 	k = j / 2;
-	}
-	for (; k < j; k++)
 	{
+	for (; k < j; k++)
+	}
 	_putchar(str[k]);
 	_putchar('\n');
 }
