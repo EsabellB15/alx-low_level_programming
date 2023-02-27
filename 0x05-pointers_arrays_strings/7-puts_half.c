@@ -22,11 +22,13 @@ void puts_half(char *str)
 	k += 1;
 	}
 	else
-	k = j / 2;
 	{
-	for (; k < j; k++)
+	k = j / 2;
 	}
+	for (; k < j; k++)
+	{
 	_putchar(str[k]);
+	}
 	_putchar('\n');
 }
 
